@@ -1,0 +1,250 @@
+screen -D -R Tng_an_2017_Nov
+python2.7 run_tweetment_on_all_files.py Tng_an_2017_Nov.json.gz
+bash ~/email.sh "done Tng_an_2017_Nov"
+
+
+screen -D -R Tng_an_2018_Jun
+python2.7 run_tweetment_on_all_files.py Tng_an_2018_Jun.json.gz
+bash ~/email.sh "done Tng_an_2018_Jun"
+
+
+screen -D -R Tst_an_2017_Oct
+python2.7 run_tweetment_on_all_files.py Tst_an_2017_Oct.json.gz
+bash ~/email.sh "done Tst_an_2017_Oct"
+
+
+screen -D -R Tng_an_2017_Jan
+python2.7 run_tweetment_on_all_files.py Tng_an_2017_Jan.json.gz
+bash ~/email.sh "done Tng_an_2017_Jan"
+
+
+screen -D -R Tst_an_2018_Dec
+python2.7 run_tweetment_on_all_files.py Tst_an_2018_Dec.json.gz
+bash ~/email.sh "done Tst_an_2018_Dec"
+
+
+screen -D -R Tst_an_2018_Nov
+python2.7 run_tweetment_on_all_files.py Tst_an_2018_Nov.json.gz
+bash ~/email.sh "done Tst_an_2018_Nov"
+
+
+screen -D -R Tst_an_2017_Jul
+python2.7 run_tweetment_on_all_files.py Tst_an_2017_Jul.json.gz
+bash ~/email.sh "done Tst_an_2017_Jul"
+
+
+screen -D -R Tng_an_2019_Jan
+python2.7 run_tweetment_on_all_files.py Tng_an_2019_Jan.json.gz
+bash ~/email.sh "done Tng_an_2019_Jan"
+
+
+screen -D -R Tng_an_2017_Oct
+python2.7 run_tweetment_on_all_files.py Tng_an_2017_Oct.json.gz
+bash ~/email.sh "done Tng_an_2017_Oct"
+
+
+screen -D -R Tst_an_2017_Jan
+python2.7 run_tweetment_on_all_files.py Tst_an_2017_Jan.json.gz
+bash ~/email.sh "done Tst_an_2017_Jan"
+
+
+screen -D -R Tng_an_2018_Nov
+python2.7 run_tweetment_on_all_files.py Tng_an_2018_Nov.json.gz
+bash ~/email.sh "done Tng_an_2018_Nov"
+
+
+screen -D -R Tst_an_2018_Mar
+python2.7 run_tweetment_on_all_files.py Tst_an_2018_Mar.json.gz
+bash ~/email.sh "done Tst_an_2018_Mar"
+
+
+screen -D -R Tst_an_2017_Feb
+python2.7 run_tweetment_on_all_files.py Tst_an_2017_Feb.json.gz
+bash ~/email.sh "done Tst_an_2017_Feb"
+
+
+screen -D -R Tst_an_2017_May
+python2.7 run_tweetment_on_all_files.py Tst_an_2017_May.json.gz
+bash ~/email.sh "done Tst_an_2017_May"
+
+
+screen -D -R Tng_an_2017_Aug
+python2.7 run_tweetment_on_all_files.py Tng_an_2017_Aug.json.gz
+bash ~/email.sh "done Tng_an_2017_Aug"
+
+
+screen -D -R Tst_an_2017_Dec
+python2.7 run_tweetment_on_all_files.py Tst_an_2017_Dec.json.gz
+bash ~/email.sh "done Tst_an_2017_Dec"
+
+
+screen -D -R Tst_an_2018_May
+python2.7 run_tweetment_on_all_files.py Tst_an_2018_May.json.gz
+bash ~/email.sh "done Tst_an_2018_May"
+
+
+screen -D -R Tng_an_2018_Dec
+python2.7 run_tweetment_on_all_files.py Tng_an_2018_Dec.json.gz
+bash ~/email.sh "done Tng_an_2018_Dec"
+
+
+screen -D -R Tst_an_2018_Sep
+python2.7 run_tweetment_on_all_files.py Tst_an_2018_Sep.json.gz
+bash ~/email.sh "done Tst_an_2018_Sep"
+
+
+screen -D -R Tng_an_2017_Jun
+python2.7 run_tweetment_on_all_files.py Tng_an_2017_Jun.json.gz
+bash ~/email.sh "done Tng_an_2017_Jun"
+
+
+screen -D -R Tng_an_2018_Sep
+python2.7 run_tweetment_on_all_files.py Tng_an_2018_Sep.json.gz
+bash ~/email.sh "done Tng_an_2018_Sep"
+
+
+screen -D -R Tst_an_2018_Feb
+python2.7 run_tweetment_on_all_files.py Tst_an_2018_Feb.json.gz
+bash ~/email.sh "done Tst_an_2018_Feb"
+
+
+screen -D -R Tst_an_2017_Nov
+python2.7 run_tweetment_on_all_files.py Tst_an_2017_Nov.json.gz
+bash ~/email.sh "done Tst_an_2017_Nov"
+
+
+screen -D -R Tng_an_2017_Sep
+python2.7 run_tweetment_on_all_files.py Tng_an_2017_Sep.json.gz
+bash ~/email.sh "done Tng_an_2017_Sep"
+
+
+screen -D -R Tst_an_2018_Jun
+python2.7 run_tweetment_on_all_files.py Tst_an_2018_Jun.json.gz
+bash ~/email.sh "done Tst_an_2018_Jun"
+
+
+screen -D -R Tng_an_2018_Jan
+python2.7 run_tweetment_on_all_files.py Tng_an_2018_Jan.json.gz
+bash ~/email.sh "done Tng_an_2018_Jan"
+
+
+screen -D -R Tng_an_2018_Feb
+python2.7 run_tweetment_on_all_files.py Tng_an_2018_Feb.json.gz
+bash ~/email.sh "done Tng_an_2018_Feb"
+
+
+screen -D -R Tng_an_2018_Mar
+python2.7 run_tweetment_on_all_files.py Tng_an_2018_Mar.json.gz
+bash ~/email.sh "done Tng_an_2018_Mar"
+
+
+screen -D -R Tst_an_2019_Jan
+python2.7 run_tweetment_on_all_files.py Tst_an_2019_Jan.json.gz
+bash ~/email.sh "done Tst_an_2019_Jan"
+
+
+screen -D -R Tst_an_2018_Jul
+python2.7 run_tweetment_on_all_files.py Tst_an_2018_Jul.json.gz
+bash ~/email.sh "done Tst_an_2018_Jul"
+
+
+screen -D -R Tst_an_2017_Aug
+python2.7 run_tweetment_on_all_files.py Tst_an_2017_Aug.json.gz
+bash ~/email.sh "done Tst_an_2017_Aug"
+
+
+screen -D -R Tst_an_2018_Apr
+python2.7 run_tweetment_on_all_files.py Tst_an_2018_Apr.json.gz
+bash ~/email.sh "done Tst_an_2018_Apr"
+
+
+screen -D -R Tng_an_2017_May
+python2.7 run_tweetment_on_all_files.py Tng_an_2017_May.json.gz
+bash ~/email.sh "done Tng_an_2017_May"
+
+
+screen -D -R Tst_an_2017_Jun
+python2.7 run_tweetment_on_all_files.py Tst_an_2017_Jun.json.gz
+bash ~/email.sh "done Tst_an_2017_Jun"
+
+
+screen -D -R Tng_an_2018_May
+python2.7 run_tweetment_on_all_files.py Tng_an_2018_May.json.gz
+bash ~/email.sh "done Tng_an_2018_May"
+
+
+screen -D -R Tst_an_2018_Jan
+python2.7 run_tweetment_on_all_files.py Tst_an_2018_Jan.json.gz
+bash ~/email.sh "done Tst_an_2018_Jan"
+
+
+screen -D -R Tng_an_2018_Oct
+python2.7 run_tweetment_on_all_files.py Tng_an_2018_Oct.json.gz
+bash ~/email.sh "done Tng_an_2018_Oct"
+
+
+screen -D -R Tng_an_2018_Aug
+python2.7 run_tweetment_on_all_files.py Tng_an_2018_Aug.json.gz
+bash ~/email.sh "done Tng_an_2018_Aug"
+
+
+screen -D -R Tng_an_2017_Mar
+python2.7 run_tweetment_on_all_files.py Tng_an_2017_Mar.json.gz
+bash ~/email.sh "done Tng_an_2017_Mar"
+
+
+screen -D -R Tst_an_2017_Mar
+python2.7 run_tweetment_on_all_files.py Tst_an_2017_Mar.json.gz
+bash ~/email.sh "done Tst_an_2017_Mar"
+
+
+screen -D -R Tng_an_2017_Jul
+python2.7 run_tweetment_on_all_files.py Tng_an_2017_Jul.json.gz
+bash ~/email.sh "done Tng_an_2017_Jul"
+
+
+screen -D -R Tst_an_2018_Aug
+python2.7 run_tweetment_on_all_files.py Tst_an_2018_Aug.json.gz
+bash ~/email.sh "done Tst_an_2018_Aug"
+
+
+screen -D -R Tng_an_2017_Feb
+python2.7 run_tweetment_on_all_files.py Tng_an_2017_Feb.json.gz
+bash ~/email.sh "done Tng_an_2017_Feb"
+
+
+screen -D -R Tst_an_2017_Sep
+python2.7 run_tweetment_on_all_files.py Tst_an_2017_Sep.json.gz
+bash ~/email.sh "done Tst_an_2017_Sep"
+
+
+screen -D -R Tng_an_2017_Dec
+python2.7 run_tweetment_on_all_files.py Tng_an_2017_Dec.json.gz
+bash ~/email.sh "done Tng_an_2017_Dec"
+
+
+screen -D -R Tng_an_2018_Apr
+python2.7 run_tweetment_on_all_files.py Tng_an_2018_Apr.json.gz
+bash ~/email.sh "done Tng_an_2018_Apr"
+
+
+screen -D -R Tst_an_2018_Oct
+python2.7 run_tweetment_on_all_files.py Tst_an_2018_Oct.json.gz
+bash ~/email.sh "done Tst_an_2018_Oct"
+
+
+screen -D -R Tng_an_2018_Jul
+python2.7 run_tweetment_on_all_files.py Tng_an_2018_Jul.json.gz
+bash ~/email.sh "done Tng_an_2018_Jul"
+
+
+screen -D -R Tst_an_2017_Apr
+python2.7 run_tweetment_on_all_files.py Tst_an_2017_Apr.json.gz
+bash ~/email.sh "done Tst_an_2017_Apr"
+
+
+screen -D -R Tng_an_2017_Apr
+python2.7 run_tweetment_on_all_files.py Tng_an_2017_Apr.json.gz
+bash ~/email.sh "done Tng_an_2017_Apr"
+
+

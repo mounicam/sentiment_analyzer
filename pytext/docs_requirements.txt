@@ -1,0 +1,14 @@
+https://download.pytorch.org/whl/cpu/torch-1.2.0%2Bcpu-cp37-cp37m-manylinux1_x86_64.whl
+click
+fairseq
+future
+hypothesis<4.0
+mock
+numpy
+onnx
+pytorch-pretrained-bert
+requests
+sentencepiece
+torchtext
+tensorboard==1.14
+pandas

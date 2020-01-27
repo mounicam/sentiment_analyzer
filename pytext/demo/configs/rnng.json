@@ -1,0 +1,55 @@
+{
+  "task": {
+    "SemanticParsingTask": {
+      "data": {
+        "batcher": {
+          "PoolingBatcher": {
+            "eval_batch_size": 1,
+            "test_batch_size": 1,
+            "train_batch_size": 1
+          }
+        },
+        "source": {
+          "TSVDataSource": {
+            "field_names": ["text", "tokenized_text", "seqlogical"],
+            "train_filename": "tests/data/test_rnng.tsv",
+            "test_filename": "tests/data/test_rnng.tsv",
+            "eval_filename": "tests/data/test_rnng.tsv"
+          }
+        }
+      },
+      "model": {
+        "lstm": {
+          "dropout": 0.34,
+          "lstm_dim": 16,
+          "num_layers": 2,
+          "bidirectional": true
+        },
+        "ablation": {
+          "use_buffer": true,
+          "use_stack": true,
+          "use_action": true,
+          "use_last_open_NT_feature": false
+        },
+        "constraints": {
+          "intent_slot_nesting": true,
+          "ignore_loss_for_unsupported": false,
+          "no_slots_inside_unsupported": true
+        },
+        "max_open_NT": 10,
+        "dropout": 0.34,
+        "compositional_type": "sum"
+      },
+      "metric_reporter": {
+        "text_column_name": "tokenized_text"
+      },
+      "trainer": {
+        "real_trainer": {
+          "report_train_metrics": false,
+          "epochs": 1
+        }
+      }
+    }
+  },
+  "version": 12
+}

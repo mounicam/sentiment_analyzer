@@ -1,0 +1,47 @@
+{
+  "version": 8,
+  "task": {
+    "DocumentClassificationTask": {
+      "data": {
+        "batcher": {
+          "train_batch_size": 64
+        },
+        "source": {
+          "TSVDataSource": {
+            "field_names": ["label", "text"],
+            "train_filename": "data/80_20/train-3l.tsv",
+            "test_filename": "data/80_20/test-3l.tsv",
+            "eval_filename": "data/80_20/test-3l.tsv"
+          }
+        }
+      },
+      "model": {
+        "DocModel": {
+          "embedding": {
+            "embed_dim": 300,
+	    "pretrained_embeddings_path": "embeddings/glove-sbwc.i25.vec"
+          },
+          "representation": {
+            "DocNNRepresentation": {
+              "cnn": {
+                "kernel_sizes": [2, 3, 4, 5],
+                "kernel_num": 300
+
+              },
+              "dropout": 0.5
+            }
+          }
+        }
+      },
+      "trainer": {
+        "epochs": 30
+      }
+    }
+  },
+
+  "export_torchscript_path": "jan_21/new_docnn.pt1",
+  "export_caffe2_path": "jan_21/model.caffe2.predictor",
+  "debug_path": "jan_21/model.debug",
+  "save_snapshot_path": "jan_21/model.pt",
+  "test_out_path": "jan_21/test_out.txt"
+}

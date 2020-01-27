@@ -1,0 +1,62 @@
+{
+  "config": {
+    "version": 19,
+    "task": {
+      "NewDisjointMultitask": {
+        "trainer": {
+          "epochs": 5
+        },
+        "task_weights": {
+          "SST2": 1,
+          "LM": 1
+        },
+        "tasks": {
+          "SST2": {
+            "DocumentClassificationTask": {
+              "data": {
+                "source": {
+                  "TSVDataSource": {
+                    "field_names": ["label", "slots", "text"],
+                    "train_filename": "tests/data/train_data_tiny.tsv",
+                    "test_filename": "tests/data/test_data_tiny.tsv",
+                    "eval_filename": "tests/data/test_data_tiny.tsv"
+                  }
+                }
+              },
+              "model": {
+                "DocModel": {
+                  "representation": {
+                    "BiLSTMDocAttention": {
+                      "lstm": {
+                        "shared_module_key": "LSTM"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "LM": {
+            "LMTask": {
+              "data": {
+                "source": {
+                  "TSVDataSource": {
+                    "field_names": ["text"],
+                    "train_filename": "tests/data/alarm_lm_tiny.tsv",
+                    "test_filename": "tests/data/alarm_lm_tiny.tsv",
+                    "eval_filename": "tests/data/alarm_lm_tiny.tsv"
+                  }
+                }
+              },
+              "model": {
+                "representation": {
+                  "shared_module_key": "LSTM"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

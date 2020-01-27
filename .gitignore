@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+runs
+__pycache__
+old_data
+data/embeddings
+*.pyc
+socialsim_data/
