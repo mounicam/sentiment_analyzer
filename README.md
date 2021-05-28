@@ -21,22 +21,6 @@
   $ (pytext_venv) python3 main.py --input <input json file> --out <output json file>
 ```
 
-4. If you want to run the Spanish ensemble classifier on TASS test set,
-
-```
-  $ python3 product_of_experts.py --lg_model pretrained_models/lr.pkl --lg_input data/tass_dataset/test-3l.txt --cnn_input pretrained_models/tass_test_output.txt
-```
-
-5. If you want to train the Spanish CNN classifier on TASS dataset,
-```
- (pytext_venv) $ pytext train < pytext/sentiment.json
-```
-
-6. If you want to train the Spanish logistic regression classifier on TASS dataset,
-```
- $ python3 logistic_regression/lr_classifier.py --train data/tass_dataset/train-3l.txt --test data/tass_dataset/test-3l.txt --model <path to save the model> 
-```
-
 
 ## Repo structure
 
